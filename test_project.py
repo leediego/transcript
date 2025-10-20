@@ -1,4 +1,3 @@
-
 from project import verify_mail, login, accept_amount
 import pytest
 
