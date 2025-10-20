@@ -1,0 +1,14 @@
+Install pip installable libraries required by this project:
+
+pip install requests
+pip install tabulate
+pip install validator_collection
+pip install password_validator
+pip install getpass_asterisk
+
+
+In this project, enable FOREIGN KEY:
+https://sqlite.org/foreignkeys.html
+sqlite3  (Enter)                     # Starts sqlite commands
+sqlite> PRAGMA foreign_keys = ON;    # Enables FOREIGN KEY constraints
+sqlite> PRAGMA foreign_keys;         # Returns 0 if disabled, 1 if enabled.
